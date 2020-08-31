@@ -6,3 +6,4 @@ driver.find_element_by_xpath("//*[@id='email']").send_keys("yugeshthegreat@gmail
 driver.find_element_by_xpath("//*[@id='pass']").send_keys("9959873205")
 driver.find_element_by_xpath("//*[@name='login']").click()
 driver.close()
+print("facebook login succesful")
