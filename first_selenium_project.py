@@ -1,5 +1,5 @@
 from selenium import webdriver
-driver = webdriver.Chrome("C:\\Users\\Sai Charan\\Downloads\\chromedriver.exe")
+driver = webdriver.Chrome("C:\\Users\\yuges\\Downloads\\chromedriver_win32\\chromedriver.exe")
 driver.get("https://www.facebook.com/")
 driver.maximize_window()
 driver.find_element_by_xpath("//*[@id='email']").send_keys("yugeshthegreat@gmail.com")
