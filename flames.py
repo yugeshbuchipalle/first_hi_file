@@ -20,3 +20,4 @@ if count>0:
         else:
             list1 = list1[:len(list1)-1]
 print(list1[0])
+print("THANKS FOR USING")
