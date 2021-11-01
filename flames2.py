@@ -1,5 +1,5 @@
-name1= input("Enter Boy name:")
-name2 = input("Enter Girl name:")
+name1= "ramesh"
+name2 ="suresh"
 print("your result")
 for i in name1:
     for j in name2:
