@@ -17,6 +17,8 @@ class TestAddition(unittest.TestCase):
     def test_add_mixed_numbers(self):
         self.assertEqual(add(2, -3), -1)  # Assert that add(2, -3) is equal to -1
         print("yugesh")
+    def test_new(self):
+        self.assertEqual(add(9, -3), -1)  # Assert that add(2, -3) is equal to -1
 
 if __name__ == '__main__':
     unittest.main()
