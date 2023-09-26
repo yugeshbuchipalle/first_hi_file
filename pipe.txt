@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout the Git repository
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/yugeshbuchipalle/first_hi_file.git']]])
+            }
+        }
+        stage('Run Tests Module 1') {
+            steps {
+                // Module 1 tests
+                dir('C:\\Users\\PavanB-3247\\PycharmProjects\\python_pytest\\resource\\first_testcase1') {
+                    // Run all Robot Framework tests in the directory
+                    bat 'robot *.robot'
+                }
+            }
+        }
+    }
+}
