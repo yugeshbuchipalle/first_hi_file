@@ -6,3 +6,5 @@ def test_add_mixed_numbers():
         print("yugesh")
 def test_new():
         print("yugesh")
+def test_fail():
+        assert(5=!5)
