@@ -7,4 +7,4 @@ def test_add_mixed_numbers():
 def test_new():
         print("yugesh")
 def test_fail():
-        assert(5=!5)
+        assert(5!=5)
